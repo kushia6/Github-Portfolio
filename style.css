@@ -2,18 +2,28 @@ body {
     font-family: Times New Roman, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e8f5e9; /* Pastel green background */
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #006400; /* Dark green header */
-    color: white;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
 }
 
-header h1 {
+h1 {
+    font-size: 36px; /* Larger size for your name */
     margin: 0;
+}
+
+.designation {
+    font-size: 24px; /* One size smaller for the designation */
+    margin-top: 5px; /* Adjust space between name and designation */
+    color: #006400; /* Optional: dark green color for the designation */
+}
+
+header img {
+    margin-top: 10px;
+    border-radius: 50%; /* Optional: for a circular image */
 }
 
 section {
@@ -21,23 +31,22 @@ section {
 }
 
 section#about {
-    background-color: #a8d5ba; /* Pastel green for the about section */
+    background-color: #fff;
     margin: 20px 0;
 }
 
 section#projects ul {
-    list-style: circle; /* Keep circles for list items */
+    list-style: circle;
     padding: 0;
 }
 
 section#projects li {
     margin-bottom: 10px;
-    color: #006400; /* Dark green text for project list items */
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #006400; /* Dark green footer */
+    background-color: #333;
     color: white;
 }
