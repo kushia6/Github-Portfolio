@@ -2,7 +2,7 @@ body {
     font-family: Times New Roman, sans-serif;
     margin: 0;
     padding: 0;
-    background: url('supply-chain-digital.jpg.jpg') no-repeat center center fixed;  /* Ensure correct path */
+    background: url("supply-chain-digital.jpg.jpg") no-repeat center center fixed;  /* Ensure correct path */
     background-size: cover;  /* Ensures the image covers the full screen */
 }
 
